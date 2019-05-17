@@ -9,7 +9,7 @@ public class Input {
           return myString;
         }
         public Boolean yesNo(){
-            System.out.println("Please enter yes or no");
+            System.out.println("Would you like to enter another circle?");
             String y = scanner.next();
           if(y.equals("y") || y.equals("yes")){
               return true;
